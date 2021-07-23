@@ -1,0 +1,198 @@
+ /* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {...}
+
+ Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}
+
+Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+ Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+ Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}  */
+/* 
+navmenu star here */
+/* For desktop: */
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nav_menu {
+   flex-direction: row;
+   justify-content: flex-end;
+}
+.nav_logo > img{
+    width: 186px;
+    height: 123px;
+    margin-top: -15px;
+}
+.nav_logo {
+    text-align: center;
+    position: inherit;
+    top: 0;
+}
+.nav_hedding {
+    text-align: center;
+    margin: 0;
+}
+.nav_menu a{
+    background: transparent;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.nav_menu a:hover {
+    background: transparent;
+}
+/* navmenu ends here */
+
+
+/* profile start here  */
+
+
+.profile_dsce p {
+    font-size: 21px;
+}
+.profile_dsce p {
+    font-size: 21px;
+    
+}
+.bottom_logo {
+    position: absolute;
+    left: 0;
+    top: 350px;
+}
+.profile_dsce{
+    margin-top: 0;
+  }
+
+/* proflie ends here */
+
+/* about start here */
+
+.all_about {
+    background: #35A0A0;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.about_hr {
+    border-top: 5px dotted white;
+    width: 7%;
+    margin: auto;
+}
+p {
+    font-size: 23px;
+}
+
+.about::after{
+    content: '';
+    display: table;
+    clear:  both;
+}
+.profi{
+    position: relative;
+}
+.profile_image {
+    position: absolute;
+    top: 124px;
+    left: 152px;
+}
+
+/* about ends here */
+
+work star here
+.progesbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+.skil_all{
+    text-align: left;
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.all {
+    background: gray;
+    width: 100%;
+    margin: 0 15px;
+    border-radius: 20px;
+}
+.more_ways{
+    position: relative;
+}
+.icons_fontawesome{
+    margin: 50% 0;
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.fab, .fas {
+    padding: 15px;
+    font-size: 25px;
+    margin: 11px;
+}
+/*work ends here */
+
+
+/* footer star here  */
+    
+.footer_menu a {
+    text-decoration: none;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    display: inline;
+}
+.footer_desc p {
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer ends here  */
+
+
